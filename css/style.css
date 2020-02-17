@@ -1,0 +1,711 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: 'Crimson Text', serif;
+
+}
+
+*******Top Start**********/ .tp {}
+
+.top {
+    max-width: 1365px;
+    background-color: #F1F2F4;
+    height: 50px
+}
+
+.topicion {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5px
+}
+
+.phn {
+    border-right: 1px solid #000000;
+    padding-top: 10px;
+    padding-right: 20px
+}
+
+.phn i {
+    margin-top: -20px;
+    display: inline-block;
+    font-size: 22px
+}
+
+.phn h3 {
+    font-size: 16px;
+    display: inline-block;
+    font-weight: bold
+}
+
+.msg {
+    padding-right: 20px;
+    padding-left: 20px
+}
+
+.msg i {
+    font-size: 22px;
+
+}
+
+.msg h3 {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 1px;
+    display: inline-block;
+
+}
+
+#info {}
+
+.fb {}
+
+.fb i {
+    font-size: 18px;
+
+    display: inline-block;
+    background-color: #1286BF;
+    padding: 2px 3px 5px 3px;
+    color: white;
+}
+.fb i :hover{
+   color: #4267B2;
+    
+    
+}
+
+/***********Top End***************/
+/************ Header start**************/
+
+
+.header {
+    max-width: 1365px;
+    margin-top: 25px
+}
+
+.head {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    margin-top: 20px
+}
+
+.head .logo {
+    max-width: 30%;
+    flex-basis: 30%
+}
+
+.head .logo img {}
+
+.head .menu {
+    max-width: 70%;
+    flex-basis: 70%;
+    justify-content: flex-end
+}
+
+.head .menu ul {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.head .menu ul li {
+    padding: 10px 20px
+}
+
+.head .menu ul li:nth-child(1),
+.head .menu ul li:nth-child(5) {
+    list-style-type: none
+}
+
+.head .menu ul li a {
+
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    color: #424242;
+    padding-right: 15px;
+    font-weight: bold
+}
+
+.head .menu ul li a:hover {
+    color: #DE2B24;
+}
+
+.head .menu ul li #nth {
+    color: white;
+    background-color: #DE2B24;
+    padding: 5px 30px;
+    border-radius: 5px;
+    margin-top: -5px
+}
+
+
+/************ Header End********/
+/************ Banner Start********/
+
+.banner-wrap {
+    max-width: 1365px;
+    background-image: url(../images/banner.png);
+    height: 590px;
+    margin-top: 15px
+}
+
+.banner {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding-top: 220px;
+
+}
+
+.banner h1 {
+    font-size: 32px;
+    color: white
+}
+
+.banner p {
+    color: #FAFBFB;
+    font-size: 18px;
+
+}
+
+.banner input {
+    background-color: #F7CD54;
+    color: white;
+    text-transform: uppercase;
+    width: 200px;
+    height: 45px;
+    border: 1px solid #F7CD54;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: all ease .5s;
+    cursor: pointer;
+    border-radius: 8px
+}
+
+.banner input:hover {
+    background-color: #DE2B24;
+    color: white
+}
+
+/************  Banner Start********/
+/************ About us ********/
+.an {}
+
+.about-us {
+    max-width: 1365px;
+
+}
+
+.us {
+    max-width: 1200px;
+    margin: auto;
+    height: 430px;
+    margin-top: 50px
+}
+
+.us .write {
+    text-align: center
+}
+
+.write h1 {
+    color: #424242;
+    font-size: 32px
+}
+
+.write p {
+    color: #8C8C8C;
+    font-size: 20px
+}
+
+ .us .write hr {
+    background-color: #424242;
+    width: 50px;
+    height: 4px;
+    margin-left: 572px;
+    margin-top: 5px;
+    border: 1px solid #424242;
+
+}
+
+.flex {
+    display: flex;
+    margin-top: 3.5%
+}
+
+.flex .row {
+    max-width: 31%;
+    flex-basis: 31%;
+    text-align: center;
+    padding-right: 3.5%
+}
+
+.flex .row h1 {
+    padding: 5px 0px
+}
+
+.flex .row img {
+    padding: 10px 0px
+}
+
+.flex .row p {
+    padding: 0px 10px;
+    font-family: 'Galada', cursive;
+    color: #626262
+}
+
+.flex .row:nth-child(3) {
+    margin-right: -7%
+}
+
+/************  About us********/
+/************ Our Appouch Start  ********/
+
+.approch {
+    max-width: 1365px;
+    background-color: #F3F3F3;
+    height: 1300px;
+    padding-top: 50px
+}
+
+.write {
+    text-align: center
+}
+
+.write h1 {
+    color: #424242;
+    font-size: 32px
+}
+
+.write p {
+    color: #8C8C8C;
+    font-size: 20px
+}
+
+.write hr {
+    background-color: white;
+    width: 60px;
+    height: 1px;
+    margin-left: 643px;
+    margin-top: 5px;
+    border: 1px solid white;
+
+}
+
+.heading {
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    background-color: #FFFFFF;
+    height: 250px;
+
+}
+
+.heading img {
+    float: left;
+    width: 400px;
+    height: 250px;
+}
+
+.heading .step {
+    background-image: url(../images/step1.png);
+    background-repeat: no-repeat;
+
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    top: 64px;
+    left: 350px;
+    text-align: center;
+    background-position: 100% 100%;
+    font-weight: bold;
+
+
+
+
+}
+
+.heading .step h1 {
+    padding-top: 20px;
+    color: white;
+    font-size: 70px;
+    margin-top: -5px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+
+
+
+}
+
+.heading p {
+    margin-top: -15px;
+    font-size: 22px;
+    color: white
+}
+
+.heading .head {
+    max-width: 600px;
+    position: relative;
+    padding-top: 50px
+}
+
+.heading .head h1 {
+    position: absolute;
+    top: 50px;
+    color: #424242;
+
+
+}
+
+.heading .head p {
+    font-size: 18px;
+    padding-top: 50px;
+    color: #6A6A6A;
+    font-weight: bold;
+
+}
+
+
+/*******.....*******/
+
+.heading {
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    background-color: #FFFFFF;
+    height: 250px;
+    margin-bottom: 40px
+}
+
+.heading #cam {
+    float: right;
+    width: 400px;
+    height: 250px
+}
+
+.heading #step {
+    background-image: url(../images/step1.png);
+    background-repeat: no-repeat;
+
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    top: 54px;
+    left: 750px;
+    text-align: center;
+    background-position: 100% 100%;
+    font-weight: bold;
+
+
+
+
+}
+
+.heading .step h1 {
+    padding-top: 20px;
+    color: white;
+    font-size: 70px;
+    margin-top: -5px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+
+
+
+}
+
+.heading p {
+    margin-top: -15px;
+    font-size: 22px;
+    color: white
+}
+
+.heading .head {
+    max-width: 600px;
+    position: relative;
+    padding-top: 50px
+}
+
+.heading .head #step-position {
+    position: absolute;
+    top: 50px;
+    color: #424242;
+    right: 0;
+}
+
+.heading .head #lorem {
+    font-size: 18px;
+    padding-top: 50px;
+    color: #6A6A6A;
+    font-weight: bold;
+    text-align: end;
+
+}
+
+
+
+/************  About us********/
+/************ Our Appouch Start  ********/
+.our-work {
+    max-width: 1365px;
+    background-color: #DE2B24;
+    height: 700px;
+    padding-top: 50px;
+    cursor: pointer
+}
+
+.work .write h1 {
+    color: white
+}
+
+.work .write p {
+    color: #FEEDEC
+}
+
+.work .write hr {
+    background-color: white;
+    height: 7px;
+    border: 1ps solid #DE2B24;
+    margin-bottom: 50px
+}
+
+
+
+.four-float {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+
+
+}
+
+.four-float .project {
+    max-width: 25%;
+    flex-basis: 25%;
+    text-align: center;
+    padding-top: 40px;
+    background-color: #F35E58
+}
+
+.project i {
+    font-size: 36px;
+    color: #F9AFAC;
+
+}
+
+.project h1 {
+    color: white;
+    font-size: 36px;
+    padding-top: 10px
+}
+
+.project p {
+    font-size: 20px;
+    color: #FFFEFF;
+    letter-spacing: 1.2px;
+    margin-top: -5px
+}
+
+.four-float .project-image {
+    max-width: 25%;
+    flex-basis: 25%;
+    background-image: url(../images/pic1.png);
+    height: 250px;
+
+}
+
+.four-float .project-image:nth-child(4) {
+    background-image: url(../images/pic2.png);
+}
+
+
+
+#float .project-image:nth-child(1) {
+    background-image: url(../images/pic3.png)
+}
+
+#float .project-image:nth-child(3) {
+    background-image: url(../images/pic4.png)
+}
+
+/************ Our Project********/
+/************ analysis Start  ********/
+
+.fb-analysis {
+    max-width: 1365px;
+    height: 600px;
+    background-color: #1286BF;
+    padding-top: 50px
+}
+
+.analysis {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    position: relative
+}
+
+.analysis h1 {
+    font-size: 36px;
+    color: white
+}
+
+.analysis p {
+    color: #E8F3F9;
+    font-size: 18px
+}
+
+.analysis i {
+    font-size: 36px;
+    color: white;
+    border-radius: 50px;
+    
+}
+.analysis i:hover{
+    color: #DE2B24
+}
+
+.form {
+max-width: 700px;
+    height: 400px;
+    background-image: url(../images/squre.png);
+    margin: auto;
+      text-align: center;margin-top: 20px;
+    z-index: 2;
+  display: none;
+    
+    
+}
+
+.form p {
+    color: #B7B7B7;
+    padding: 20px 40px 
+}
+
+.form input {
+    width: 420px;
+    height: 45px;
+    background-color: white;
+    border: 1px solid #DCDCDC;
+    
+    margin-top: 10px;
+   
+    font-size: 15px
+  
+}
+
+.form input:placeholder-shown {
+    padding: 5px;
+    padding-left: 30px;
+    color: #C9C9C9;
+    
+}
+
+.form #submit {
+    width: 180px;
+background-color: #DE2B24;
+    font-weight: bold;
+    color: white;
+    font-size: 17px;
+    margin-top: 30px;
+  
+    cursor: pointer;
+    transition: all ease .5s
+}
+.form #submit:hover{
+    background-color: #2A2A2A
+}
+ .analysis #cross{
+   
+    top: 120px;
+     position: absolute;
+     right: 230px;
+     color: white;
+     cursor: pointer;
+     z-index: 5;
+     background-color: #1286BF;
+     padding-top: -20px
+     
+}
+.analysis #cross:hover{
+    color: #DE2B24
+}
+
+/************  form End********/
+/************Footer  Start  ********/
+.footer {
+    max-width: 1365px;
+    height: 450px;
+    text-align: center;
+    background-color: #2A2A2A
+}
+.foot{
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 80px;
+}
+.foot h1{
+    font-size: 32px;
+    color: white;
+    padding: 10px 0px 
+}
+.foot .social{}
+.foot .social ul{}
+.foot .social ul li{ display: inline}
+.foot .social ul li a{ color: white;
+border: 1px solid #515151;
+padding: 4px 8px 9px 8px ;
+    display: inline-block;
+    margin: 10px 5px ;
+    font-size: 24px
+}
+.foot .social ul li a:hover{
+    border: 1px solid #DE2B24;
+}
+.foot .social ul li i{ }
+.foot p{
+    color: #CDCDCD;
+    font-size: 20px;
+    padding: 10px 0px 20px 0px 
+}
+.foot input{
+    width: 520px;
+    height: 50px;
+   background: #515151;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #515151
+    
+
+}
+.foot input:placeholder-shown{
+    padding-left: 20px
+}
+ 
+.foot #sub{
+    margin-top: 20px;
+    height: 50px;
+    width: 180px;
+    background: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition:  all ease .5s
+    
+}
+.foot #sub:hover{
+    background-color: #515151
+}
+
+/********Footer finish*******/
+/********finish start*******/
+.finish{ max-width: 1365px;
+height: 60px;
+text-align: center;
+background: #515151}
+.finish p{
+    color: #BBBBBB;
+    padding-top: 20px
+}
